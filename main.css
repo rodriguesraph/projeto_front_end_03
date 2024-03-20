@@ -1,0 +1,24 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.navbar {
+    background-color: #ff3300;
+    font-family: "Anton", sans-serif;
+}
+
+.navbar img {
+    height: 115px;
+}
+
+#cabecalho .nav .nav-link {
+    color: white;
+}
+
+#cabecalho .nav .nav-link.active {
+    color: black;
+}
+
+#cabecalho .nav .nav-link:hover {
+    color: black;
+}
