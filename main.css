@@ -2,7 +2,8 @@ body {
     font-family: "Noto Sans", sans-serif;
 }
 
-.navbar {
+.navbar,
+.titulo {
     background-color: #ff3300;
     font-family: "Anton", sans-serif;
 }
@@ -21,4 +22,54 @@ body {
 
 #cabecalho .nav .nav-link:hover {
     color: black;
+}
+
+#sobre-o-jogo, #mecanicas {
+    background-color: #141414;
+}
+
+.titulo h1 {
+    font-size: 56px;
+    color: black;
+    padding: 0;
+}
+
+h2, h3, p {
+    color: white;
+}
+
+h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 48px;
+}
+
+.laranja {
+    color: #ff3300;
+}
+
+.divisor {
+    background-color: #141414;
+    height: 25px;
+    margin: 0;
+}
+
+.caixa-tabs {
+    background-color: #ff3300;
+    padding: 0;
+    border: 1px solid white;
+    border-top: none;
+}
+
+.caixa-tabs h2,
+.caixa-tabs p {
+    color: black;
+}
+
+.nav-mecanicas .nav-link.active {
+    background-color: #ff3300;
+    font-weight: bold;
+}
+
+.nav-mecanicas .nav-link {
+    color: white;
 }
