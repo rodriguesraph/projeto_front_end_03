@@ -90,3 +90,10 @@ footer {
 small {
     color: gray;
 }
+
+@media (max-width: 540px) {
+    .tab-content .tab-pane p,
+    .tab-content .tab-pane h2 {
+        padding-left: 22px;
+    }
+}
